@@ -17,8 +17,10 @@ namespace Task
         /// <returns>The sequence of downloaded url content</returns>
         public static IEnumerable<string> GetUrlContent(this IEnumerable<Uri> uris)
         {
+
             // TODO : Implement GetUrlContent
             throw new NotImplementedException();
+
         }
 
         /// <summary>
