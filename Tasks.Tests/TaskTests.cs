@@ -8,8 +8,7 @@ using Tasks.Tests.Extentions;
 
 namespace Tasks.Tests
 {
-    //it's small change
-
+    
     [TestClass]
     public class TaskTests
     {

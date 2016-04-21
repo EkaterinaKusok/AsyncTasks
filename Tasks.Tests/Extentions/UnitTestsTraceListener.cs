@@ -113,7 +113,7 @@ namespace Tasks.Tests.Extentions
     {
 
         private static readonly Dictionary<Regex, Action<Match>> stateMachine = new Dictionary<Regex, Action<Match>> { 
-            { 
+            {
                 new Regex(@"\[(?<tid>\d+)\] HttpWebRequest\#(?<id>\d+)\:\:HttpWebRequest\((?<url>\S+)\#(-?)(\d+)\)"),
                 m => GetHttpRequest(m.IntValue("id")).Url = m.StringValue("url")
             },
